@@ -1,0 +1,35 @@
+{
+    "packageName": "ionic-conference-app",
+    "packageDescription": "Ionic Conference App",
+    "packageNameId": "com.ionic.conference.app",
+    "packageNameIdDesktop": "com.ionic.conference.app.desktop2",
+    "themeColor": "#192c3a",
+    "userVisibleName": "Copay",
+    "purposeLine": "Ionic Conference App",
+    "bundleName": "conference",
+    "appUri": "conference",
+    "name": "conference",
+    "nameNoSpace": "conference",
+    "nameCase": "Conference",
+    "nameCaseNoSpace": "Conference",
+    "gitHubRepoName": "conference",
+    "gitHubRepoUrl": "git://github.com/panzongqu/ionic-conference-app.git",
+    "gitHubRepoBugs": "https://github.com/panzongqu/ionic-conference-app/issues",
+    "disclaimerUrl": "https://github.com/panzongqu/ionic-conference-app/disclaimer",
+    "url": "https://ionicframework.com",
+    "appDescription": "Ionic Conference App",
+    "winAppName": "IonicConferenceApp",
+    "description": "Ionic Conference App",
+    "version": "0.0.1",
+    "androidVersion": "90000001",
+    "_extraCSS": null,
+    "_enabledExtensions": {
+      "coinbase": false,
+      "glidera": false,
+      "debitcard": false,
+      "shapeshift": false,
+      "simplex": false,
+      "giftcards": false
+    }
+  }
+  

@@ -4,13 +4,18 @@
   "description": "Ionic Conference App",
   "author": "Ionic Team <hi@ionicframework.com>",
   "license": "Apache-2.0",
+  "main": "electron/main.js",
+  "title": "Ionic-conference-app",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:desktop": "ng build --base-href ./ && electron .",
     "build": "ng build",
+    "build:electron": "node ./electron/build-electron.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "ionic:build": "build",
     "postinstall": "webdriver-manager update --standalone false --gecko false"
   },
   "repository": {
@@ -63,6 +68,8 @@
     "@types/jasminewd2": "2.0.8",
     "@types/node": "^12.12.17",
     "codelyzer": "^5.2.0",
+    "electron": "^7.1.11",
+    "electron-builder": "^22.3.2",
     "jasmine-core": "^3.5.0",
     "jasmine-spec-reporter": "4.2.1",
     "karma": "4.4.1",
@@ -74,7 +81,8 @@
     "puppeteer": "^2.0.0",
     "ts-node": "8.5.4",
     "tslint": "^5.20.1",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "webpack": "^4.41.5"
   },
   "cordova": {
     "platforms": [
